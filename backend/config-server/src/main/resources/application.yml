@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/praveen1996singh/GlamBoutique.git
+          searchPaths: backend/config-server
+          # https://github.com/your-username/your-config-repo
+          # If your repo is private, add the following lines
+          # username: your-username
+          # password: your-password
